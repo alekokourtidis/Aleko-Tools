@@ -16,8 +16,8 @@ const TOOLS = [
     logo: <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#7c3aed"/><path d="M12 10h10a4 4 0 014 4v1a3 3 0 01-3 3h-5l-2 4v-4h-4a2 2 0 01-2-2v-4a2 2 0 012-2z" fill="#fff" opacity="0.9"/><path d="M14 22h12a2 2 0 012 2v4a2 2 0 01-2 2h-4v4l-2-4h-6a2 2 0 01-2-2v-4a2 2 0 012-2z" fill="#fff" opacity="0.6"/></svg>,
   },
   {
-    key: 'studyacorn', name: 'Study Acorn', tagline: 'Adaptive AP and SAT study guide that finds your gaps',
-    price: 'Free', href: 'https://studyacorn.vercel.app', badge: 'Live', color: '#2B5F4A',
+    key: 'studypebble', name: 'Study Acorn', tagline: 'Adaptive AP and SAT study guide that finds your gaps',
+    price: 'Free', href: 'https://studypebble.vercel.app', badge: 'Live', color: '#2B5F4A',
     logo: <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="#2B5F4A"/><path d="M19 6c0-2 3-2 3 0l-1 4h-1z" fill="#8B6914"/><path d="M10 14c0-5 20-5 20 0l-1 5c0 4-18 4-18 0z" fill="#6B3F1D"/><path d="M11 18c0-2 2-3 4-3h10c2 0 4 1 4 3l-1 12c0 4-16 4-16 0z" fill="#F4A56A"/><circle cx="17" cy="24" r="1.5" fill="#1E1B18"/><circle cx="23" cy="24" r="1.5" fill="#1E1B18"/><path d="M18 29q2 2 4 0" stroke="#1E1B18" strokeWidth="1" strokeLinecap="round" fill="none"/></svg>,
   },
   {
