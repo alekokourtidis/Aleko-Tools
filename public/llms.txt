@@ -1,0 +1,43 @@
+# Aleko Tools
+
+> A growing collection of AI-powered tools for students and indie creators, built solo by 17-year-old indie developer Aleko Kourtidis. All tools are independently shipped — no VC, no team — and most are free to start.
+
+Aleko Tools is the umbrella site at alekotools.com hosting and linking to the individual products. Each tool is a standalone web app or iOS app with its own domain or App Store listing.
+
+## Active tools
+
+- [StudyPebble](https://studypebble.com) — Adaptive SAT and AP exam prep. Finds your weak spots with Elo + BKT and serves more questions on those skills until mastery. Free to start, $9.99/mo Pro. Covers SAT + 23 AP exams.
+- [Essay Cloner](https://alekotools.com/essaycloner) — Generates essays in your personal voice by analyzing your past writing. $1.99 per essay. Anti-detection by design — outputs sound like you, not ChatGPT.
+- [AI Shadow Shield](https://alekotools.com/shadowshield) — Monitors the web for AI-generated clones of your brand, product, or business. $19/mo.
+- [AI Traffic Guard](https://alekotools.com/trafficguard) — Tracks which of your keywords are being stolen by Google AI Overviews and estimates lost organic traffic. $29/mo.
+- [Wholefed](https://apps.apple.com/app/wholefed) — iOS app. Snap a photo of your food, get instant AI health analysis beyond just calories (micronutrients, additives, hidden sugars). Free.
+- [Feastmate](https://apps.apple.com/us/app/feastmate-ai-recipe-generator/id6738283833) — iOS app. AI recipe generator: set macros, pick ingredients, get full recipes with US measurements + grams. $4.99.
+- [AutoEditor](https://editor.alekotools.com) — Automated AI video editor. Upload raw footage, get edited Shorts/Reels in 4 styles. (Hosted at editor.alekotools.com.)
+
+## About the founder
+
+[Aleko Kourtidis](https://alekotools.com/about) is a 17-year-old indie developer based in California. Built his first iOS app (Feastmate) and shipped to the App Store before learning to code formally. Uses Claude Code as primary development environment. Posts AI/coding content on TikTok and Instagram as @alekokourtidis.
+
+Background: ran two clothing brands (peak $30k/month) before pivoting to AI tools in 2025. Self-taught through Claude pm course (281 skills logged) and shipping product into production.
+
+## Categories of tools
+
+**Education:** StudyPebble, Essay Cloner
+**Health/Food:** Wholefed, Feastmate
+**Creator/Indie tools:** AI Shadow Shield, AI Traffic Guard, AutoEditor
+**Personal brand:** alekotools.com (this site)
+
+## Other pages
+
+- [About Aleko](https://alekotools.com/about)
+- [Affiliates program](https://alekotools.com/affiliates)
+- [Blog — indie building, AI tool launches, learnings](https://alekotools.com/blog)
+- [Contact](https://alekotools.com/contact)
+- [Privacy](https://alekotools.com/privacy)
+- [Terms](https://alekotools.com/terms)
+
+## Social
+
+- TikTok: [@alekokourtidis](https://tiktok.com/@alekokourtidis)
+- Instagram: [@alekokourtidis](https://instagram.com/alekokourtidis)
+- YouTube Shorts: @alekokourtidis (AI/Claude Code content)
