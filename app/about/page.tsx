@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'About — Aleko Tools',
-  description: 'Aleko Tools is a collection of AI-powered tools built by Aleko Kourtidis, a 17-year-old indie developer focused on solving real problems for students.',
+  description: 'Aleko Tools is a collection of AI-powered tools built by a 17-year-old indie developer focused on solving real problems for students.',
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="hero-badge">About</div>
         <h1>Built by one person, for students.</h1>
         <p>
-          Hi, I&apos;m Aleko Kourtidis. I&apos;m 17 and I build AI-powered tools that solve real problems — mostly for students, because that&apos;s the world I live in.
+          Hi, I&apos;m Aleko. I&apos;m 17 and I build AI-powered tools that solve real problems — mostly for students, because that&apos;s the world I live in.
         </p>
       </div>
 
@@ -34,9 +34,7 @@ export default function AboutPage() {
 
         <h2 style={{ fontSize: 22, fontWeight: 700, marginTop: 32, marginBottom: 12 }}>Contact</h2>
         <p>
-          Email: <a href="mailto:aleko@alekotools.com" style={{ color: '#7c3aed', textDecoration: 'underline' }}>aleko@alekotools.com</a><br />
-          TikTok: <a href="https://tiktok.com/@alekokourtidis" target="_blank" rel="noopener" style={{ color: '#7c3aed', textDecoration: 'underline' }}>@alekokourtidis</a><br />
-          Instagram: <a href="https://instagram.com/alekokourtidis" target="_blank" rel="noopener" style={{ color: '#7c3aed', textDecoration: 'underline' }}>@alekokourtidis</a>
+          Email: <a href="mailto:aleko@alekotools.com" style={{ color: '#7c3aed', textDecoration: 'underline' }}>aleko@alekotools.com</a>
         </p>
       </div>
     </div>

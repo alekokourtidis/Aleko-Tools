@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Contact — Aleko Tools',
-  description: 'Contact Aleko Kourtidis for support, partnerships, school inquiries, or filter allowlist requests.',
+  description: 'Contact Aleko Tools for support, partnerships, school inquiries, or filter allowlist requests.',
 };
 
 const CARDS = [
@@ -18,7 +18,7 @@ export default function ContactPage() {
       <div className="hero" style={{ maxWidth: 720 }}>
         <div className="hero-badge">Contact</div>
         <h1>Get in touch.</h1>
-        <p>Aleko Tools is built and maintained by Aleko Kourtidis. Email me for anything.</p>
+        <p>Aleko Tools is built and maintained by Aleko. Email me for anything.</p>
       </div>
 
       <div className="section" style={{ maxWidth: 720, margin: '2rem auto' }}>

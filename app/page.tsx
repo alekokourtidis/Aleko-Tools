@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Aleko Tools — AI-Powered Tools for Students | by Aleko Kourtidis',
-  description: 'AI-powered tools built by Aleko Kourtidis. Essay writing in your voice, AP/SAT study guide, food scanning, recipe generation, and more.',
-  keywords: 'aleko tools, alekotools, aleko kourtidis, ai tools for students, ai essay writer, ai study guide, student ai tools',
-  authors: [{ name: 'Aleko Kourtidis', url: 'https://alekotools.com/about' }],
-  openGraph: { title: 'Aleko Tools — AI-Powered Tools for Students', description: 'AI-powered tools built by Aleko Kourtidis for students.', url: 'https://alekotools.com', siteName: 'Aleko Tools', type: 'website' },
+  title: 'Aleko Tools — AI-Powered Tools for Students',
+  description: 'AI-powered tools for students. Essay writing in your voice, AP/SAT study guide, food scanning, recipe generation, and more.',
+  keywords: 'aleko tools, alekotools, ai tools for students, ai essay writer, ai study guide, student ai tools',
+  authors: [{ name: 'Aleko', url: 'https://alekotools.com/about' }],
+  openGraph: { title: 'Aleko Tools — AI-Powered Tools for Students', description: 'AI-powered tools for students.', url: 'https://alekotools.com', siteName: 'Aleko Tools', type: 'website' },
 };
 
 const TOOLS = [

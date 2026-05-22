@@ -6,12 +6,8 @@ const STRUCTURED_DATA = {
     {
       '@type': 'Person',
       '@id': 'https://alekotools.com/#person',
-      name: 'Aleko Kourtidis',
+      name: 'Aleko',
       url: 'https://alekotools.com/about',
-      sameAs: [
-        'https://tiktok.com/@alekokourtidis',
-        'https://instagram.com/alekokourtidis',
-      ],
       jobTitle: 'Indie AI Developer',
     },
     {
@@ -22,10 +18,6 @@ const STRUCTURED_DATA = {
       url: 'https://alekotools.com',
       logo: 'https://alekotools.com/favicon.ico',
       founder: { '@id': 'https://alekotools.com/#person' },
-      sameAs: [
-        'https://tiktok.com/@alekokourtidis',
-        'https://instagram.com/alekokourtidis',
-      ],
       contactPoint: {
         '@type': 'ContactPoint',
         email: 'aleko@alekotools.com',
@@ -112,10 +104,10 @@ const STRUCTURED_DATA = {
 };
 
 export const metadata = {
-  title: 'Aleko Tools — AI-Powered Tools for Students | by Aleko Kourtidis',
-  description: 'AI-powered tools built by Aleko Kourtidis. Essay writing in your voice, AP/SAT study guide, food scanning, recipe generation, and more.',
-  keywords: 'aleko tools, alekotools, aleko kourtidis, ai tools for students, ai essay writer, ai study guide, student ai tools, educational ai',
-  authors: [{ name: 'Aleko Kourtidis', url: 'https://alekotools.com/about' }],
+  title: 'Aleko Tools — AI-Powered Tools for Students',
+  description: 'AI-powered tools for students. Essay writing in your voice, AP/SAT study guide, food scanning, recipe generation, and more.',
+  keywords: 'aleko tools, alekotools, ai tools for students, ai essay writer, ai study guide, student ai tools, educational ai',
+  authors: [{ name: 'Aleko', url: 'https://alekotools.com/about' }],
   category: 'education',
   openGraph: {
     title: 'Aleko Tools — AI-Powered Tools for Students',
@@ -152,7 +144,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <footer className="footer">
           <div className="footer-inner">
-            <span>© 2026 Aleko Kourtidis</span>
+            <span>© 2026 Aleko Tools</span>
             <div className="footer-links">
               <a href="/">Tools</a>
               <a href="/blog">Blog</a>
@@ -160,8 +152,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a href="/contact">Contact</a>
               <a href="/privacy">Privacy</a>
               <a href="/terms">Terms</a>
-              <a href="https://tiktok.com/@alekokourtidis" target="_blank" rel="noopener">TikTok</a>
-              <a href="https://instagram.com/alekokourtidis" target="_blank" rel="noopener">Instagram</a>
             </div>
           </div>
         </footer>

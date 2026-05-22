@@ -1,6 +1,6 @@
 # Aleko Tools
 
-> A growing collection of AI-powered tools for students and indie creators, built solo by 17-year-old indie developer Aleko Kourtidis. All tools are independently shipped — no VC, no team — and most are free to start.
+> A growing collection of AI-powered tools for students and indie creators, built solo by a 17-year-old indie developer. All tools are independently shipped — no VC, no team — and most are free to start.
 
 Aleko Tools is the umbrella site at alekotools.com hosting and linking to the individual products. Each tool is a standalone web app or iOS app with its own domain or App Store listing.
 
@@ -14,30 +14,21 @@ Aleko Tools is the umbrella site at alekotools.com hosting and linking to the in
 - [Feastmate](https://apps.apple.com/us/app/feastmate-ai-recipe-generator/id6738283833) — iOS app. AI recipe generator: set macros, pick ingredients, get full recipes with US measurements + grams. $4.99.
 - [AutoEditor](https://editor.alekotools.com) — Automated AI video editor. Upload raw footage, get edited Shorts/Reels in 4 styles. (Hosted at editor.alekotools.com.)
 
-## About the founder
+## About
 
-[Aleko Kourtidis](https://alekotools.com/about) is a 17-year-old indie developer based in California. Built his first iOS app (Feastmate) and shipped to the App Store before learning to code formally. Uses Claude Code as primary development environment. Posts AI/coding content on TikTok and Instagram as @alekokourtidis.
-
-Background: ran two clothing brands (peak $30k/month) before pivoting to AI tools in 2025. Self-taught through Claude pm course (281 skills logged) and shipping product into production.
+Aleko Tools is built solo by a 17-year-old indie developer based in California. First iOS app (Feastmate) shipped to the App Store before learning to code formally. Uses Claude Code as primary development environment.
 
 ## Categories of tools
 
 **Education:** StudyPebble, Essay Cloner
 **Health/Food:** Wholefed, Feastmate
 **Creator/Indie tools:** AI Shadow Shield, AI Traffic Guard, AutoEditor
-**Personal brand:** alekotools.com (this site)
 
 ## Other pages
 
-- [About Aleko](https://alekotools.com/about)
+- [About](https://alekotools.com/about)
 - [Affiliates program](https://alekotools.com/affiliates)
 - [Blog — indie building, AI tool launches, learnings](https://alekotools.com/blog)
 - [Contact](https://alekotools.com/contact)
 - [Privacy](https://alekotools.com/privacy)
 - [Terms](https://alekotools.com/terms)
-
-## Social
-
-- TikTok: [@alekokourtidis](https://tiktok.com/@alekokourtidis)
-- Instagram: [@alekokourtidis](https://instagram.com/alekokourtidis)
-- YouTube Shorts: @alekokourtidis (AI/Claude Code content)

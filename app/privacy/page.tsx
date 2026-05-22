@@ -44,7 +44,7 @@ export default function PrivacyPage() {
         <p>If this policy changes materially, I&apos;ll update the date above and email anyone with an active account.</p>
 
         <h2 style={{ fontSize: 18, fontWeight: 700, color: '#111', marginTop: 24 }}>Contact</h2>
-        <p>Aleko Kourtidis · <a href="mailto:aleko@alekotools.com" style={{ color: '#7c3aed', textDecoration: 'underline' }}>aleko@alekotools.com</a></p>
+        <p>Aleko Tools · <a href="mailto:aleko@alekotools.com" style={{ color: '#7c3aed', textDecoration: 'underline' }}>aleko@alekotools.com</a></p>
       </div>
     </div>
   );
