@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alekotools 🛠️
 
-## Getting Started
+**AI-Powered Productivity Tools Marketplace**
 
-First, run the development server:
+Alekotools is an automated platform that showcases AI-powered productivity tools with a fully autonomous content pipeline. The site automatically generates SEO-optimized content, manages product listings, and handles user engagement.
+
+🌐 **Live Site:** [alekotools.com](https://alekotools.com)
+
+## ✨ Key Features
+
+### Automated Content Pipeline
+- **Multi-Agent Blog System** - AI agents write and publish SEO content automatically
+- **Product Discovery** - Automatically detects new tools and adds them to the marketplace  
+- **Smart Keyword Targeting** - Each tool has targeted SEO strategy with 10-15 relevant keywords
+- **Scheduled Publishing** - Mon/Wed/Fri automated blog posts at optimal times
+
+### User Experience
+- **Curated Tool Library** - 20+ carefully selected AI productivity tools
+- **Email Capture System** - Supabase-powered subscriber management
+- **Responsive Design** - Mobile-first approach with smooth animations
+- **Performance Optimized** - Fast loading with Next.js 16 and Tailwind v4
+
+### Technical Architecture
+- **Command Center Integration** - Part of larger autonomous product pipeline
+- **Analytics Dashboard** - Real-time traffic and engagement metrics
+- **A/B Testing Framework** - Continuous optimization of conversion funnels
+- **SEO Automation** - Meta tags, structured data, sitemap generation
+
+## 🤖 Automation Features
+
+The site operates with minimal human intervention:
+
+1. **Content Creation** - AI agents research and write blog posts
+2. **SEO Optimization** - Automatic keyword research and content optimization  
+3. **Social Distribution** - Scheduled social media posting
+4. **Email Marketing** - Automated email sequences for subscribers
+5. **Analytics Reporting** - Weekly performance summaries
+
+## 🚀 Tech Stack
+
+- **Frontend:** Next.js 16, React 19, Tailwind v4
+- **Backend:** Supabase (PostgreSQL, Auth, Storage)
+- **AI:** Multiple agents using Claude API for content generation
+- **Deployment:** Vercel with automatic deployments
+- **Analytics:** Custom dashboard with real-time metrics
+
+## 📊 Performance
+
+- **20+ Tools** featured across multiple categories
+- **SEO Optimized** content driving organic traffic
+- **Email Subscribers** growing through automated funnels
+- **Mobile Responsive** design with 95+ Lighthouse scores
+
+## 🔄 Development Workflow
 
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Deploy to production
+vercel --prod
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Future Roadmap
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Expand to 50+ tools by Q3 2026
+- Implement user reviews and ratings system
+- Add advanced filtering and search capabilities
+- Launch affiliate partner program
+- Integrate payment processing for premium tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*This project demonstrates autonomous content creation, SEO automation, and scalable web architecture.*
