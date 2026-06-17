@@ -59,8 +59,8 @@ const NONPROFIT = [
   },
   {
     key: 'reelout', org: 'REEL (twice-exceptional learners)', name: 'REEL Outreach',
-    tagline: 'Internal tool that compiles partner schools, providers, and donors with per-field confidence flags, a vetting pipeline, and source-cited outreach drafting.',
-    href: null, badge: 'In testing', color: '#4f46e5',
+    tagline: 'Internal workspace that compiles providers, partner schools, donors, and collaborators with per-field source-confidence flags, a drag-and-drop vetting pipeline, and source-cited outreach drafting. (Interactive demo, sample data.)',
+    href: 'https://reel-outreach-demo.vercel.app', badge: 'Demo', color: '#4f46e5',
   },
   {
     key: 'sharks', org: 'San Jose Sharks', name: 'Sharks Fan Atlas',
