@@ -26,12 +26,36 @@ body {
 .container { max-width: 900px; margin: 0 auto; padding: 0 20px 60px; }
 .hero { padding: 60px 0 40px; }
 .hero-badge { display: inline-block; font-size: 12px; color: #888; border: 1px solid #333; border-radius: 20px; padding: 4px 12px; margin-bottom: 16px; }
-.hero h1 { font-size: 36px; font-weight: 700; line-height: 1.1; margin: 0; }
-.hero p { color: #888; margin-top: 12px; font-size: 16px; max-width: 500px; }
+.hero h1 { font-size: 36px; font-weight: 700; line-height: 1.15; margin: 0; }
+.hero p { color: #888; margin-top: 16px; font-size: 16px; max-width: 540px; line-height: 1.5; }
+
+.rotating-word { display: inline-block; color: #fff; background: linear-gradient(90deg, #60a5fa, #a78bfa); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; opacity: 0; transform: translateY(8px); transition: opacity 0.28s ease, transform 0.28s ease; }
+.rotating-word.is-in { opacity: 1; transform: translateY(0); }
+
+/* Featured / star card */
+.feature-card { display: flex; gap: 20px; align-items: flex-start; margin-top: 40px; padding: 28px; background: linear-gradient(135deg, #1a1414, #141414); border: 1px solid #3a2020; border-radius: 16px; text-decoration: none; color: #fff; transition: border-color 0.2s, transform 0.2s; }
+.feature-card:hover { border-color: #dc2626; transform: translateY(-2px); }
+.feature-icon { width: 64px; height: 64px; flex-shrink: 0; }
+.feature-icon svg { width: 100%; height: 100%; }
+.feature-eyebrow { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #dc2626; font-weight: 600; margin-bottom: 6px; }
+.feature-card h2 { font-size: 24px; font-weight: 700; margin: 0 0 8px; }
+.feature-card .feature-body p { color: #aaa; font-size: 14px; line-height: 1.5; margin: 0 0 12px; max-width: 560px; }
+.feature-cta { font-size: 14px; color: #fff; font-weight: 600; }
 
 .section { margin-top: 48px; }
 .section-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.section-sub { font-size: 14px; color: #888; margin: -8px 0 16px; max-width: 560px; line-height: 1.5; }
 .section-title { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: #888; }
+.card-org { font-size: 11px; color: #777; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.product-card.is-private { cursor: default; opacity: 0.85; }
+.product-card.is-private:hover { border-color: #222; }
+
+/* Track record strip */
+.track { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+.track-item { background: #111; border: 1px solid #1e1e1e; border-radius: 12px; padding: 20px; }
+.track-stat { font-size: 24px; font-weight: 700; color: #fff; }
+.track-label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-top: 2px; }
+.track-desc { font-size: 13px; color: #777; line-height: 1.45; margin: 10px 0 0; }
 .section-link { font-size: 13px; color: #888; text-decoration: none; }
 .section-link:hover { color: #fff; }
 
@@ -77,4 +101,6 @@ body {
   .products { grid-template-columns: 1fr; }
   .nav-links { gap: 12px; }
   .footer-inner { flex-direction: column; gap: 8px; }
+  .feature-card { flex-direction: column; gap: 14px; padding: 22px; }
+  .track { grid-template-columns: 1fr; }
 }

@@ -109,6 +109,7 @@ export const metadata = {
   keywords: 'aleko tools, alekotools, ai tools for students, ai essay writer, ai study guide, student ai tools, educational ai',
   authors: [{ name: 'Aleko', url: 'https://alekotools.com/about' }],
   category: 'education',
+  robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     title: 'Aleko Tools — AI-Powered Tools for Students',
     description: 'A growing collection of AI-powered tools for students.',
@@ -134,10 +135,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="nav-inner">
             <a href="/" className="nav-brand">alekotools<span>.com</span></a>
             <div className="nav-links">
-              <a href="/">Tools</a>
-              <a href="/blog">Blog</a>
+              <a href="/">Work</a>
               <a href="/about">About</a>
-              <a href="/affiliates">Affiliates</a>
             </div>
           </div>
         </nav>
@@ -146,8 +145,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="footer-inner">
             <span>© 2026 Aleko Tools</span>
             <div className="footer-links">
-              <a href="/">Tools</a>
-              <a href="/blog">Blog</a>
+              <a href="/">Work</a>
               <a href="/about">About</a>
               <a href="/contact">Contact</a>
               <a href="/privacy">Privacy</a>
